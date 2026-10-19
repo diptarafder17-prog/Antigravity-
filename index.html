@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Antigravity for Visual Studio Code</title>
+  <style>
+    :root{
+      --bg:#f7f9fb; --card:#ffffff; --muted:#6b7280; --accent:#0b66ff;
+      --maxw:900px; font-family:Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    html,body{height:100%; margin:0; background:var(--bg); color:#0f172a}
+    .page{max-width:var(--maxw); margin:48px auto; padding:28px; background:transparent}
+    .card{background:var(--card); border-radius:12px; box-shadow:0 6px 24px rgba(11,34,71,0.06); padding:28px}
+    h1{margin:0 0 6px; font-size:28px}
+    p.lead{margin:0 0 18px; color:var(--muted)}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .muted{color:var(--muted)}
+    .section{margin-top:22px}
+    ol,ul{margin:8px 0 8px 20px}
+    .hero{display:flex; gap:20px; align-items:center}
+    .hero img{max-width:320px; width:100%; border-radius:8px; box-shadow:0 4px 18px rgba(11,34,71,0.06)}
+    .btn{display:inline-block; background:var(--accent); color:#fff; padding:10px 14px; border-radius:8px; text-decoration:none; font-weight:600}
+    .small{font-size:13px; color:var(--muted)}
+    footer{margin-top:26px; font-size:13px; color:var(--muted)}
+    code, pre{background:#0f172a; color:#f8fafc; padding:2px 6px; border-radius:6px; font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace}
+    .note{border-left:4px solid #e2e8f0; padding:10px 14px; background:#fbfcfe; border-radius:6px; margin:14px 0}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <article class="card" role="article" aria-labelledby="title">
+      <header class="hero">
+        <div style="flex:1">
+          <h1 id="title">Antigravity for Visual Studio Code</h1>
+          <p class="lead">The Antigravity VS Code extension brings Google Antigravity's agentic capabilities directly into your editor: converse with agents in side panels, review inline diffs, inspect interactive plans, and execute multi-step engineering tasks.</p>
+          <p class="small">Repository description: <code>curl -fsSL https://antigravity.google/cli/install.sh | bash</code></p>
+        </div>
+        <figure style="width:320px; margin:0">
+          <img src="/assets/image/blog/vscode-extension-marketplace.png" alt="Antigravity in Visual Studio Code" />
+        </figure>
+      </header>
+
+      <section class="section" id="download">
+        <h2>1. Download VS Code</h2>
+        <p class="muted">Get Visual Studio Code for macOS, Linux, or Windows if you don't have it yet.</p>
+        <p><a class="btn" href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Download VS Code</a></p>
+      </section>
+
+      <section class="section" id="install-extension">
+        <h2>2. Install the Antigravity extension</h2>
+        <p>Download the official Google Antigravity extension from the Visual Studio Code Marketplace.</p>
+        <p><a href="https://marketplace.visualstudio.com/items?itemName=Google.google-antigravity" target="_blank" rel="noopener noreferrer">Antigravity on the VS Code Marketplace</a></p>
+      </section>
+
+      <hr />
+
+      <section class="section" id="prereqs">
+        <h3>Prerequisites</h3>
+        <ul>
+          <li><strong>Visual Studio Code</strong>: Version 1.90 or later on macOS, Linux, or Windows.</li>
+          <li><strong>Antigravity entitlement</strong>: A Google Account with any Antigravity plan (including the free tier) or an enterprise account enabled for <em>Gemini Enterprise</em>.</li>
+        </ul>
+      </section>
+
+      <section class="section" id="installation-setup">
+        <h3>Installation and setup</h3>
+        <ol>
+          <li>Open Visual Studio Code.</li>
+          <li>Open the Extensions sidebar (<code>Ctrl+Shift+X</code> on Windows and Linux, <code>Cmd+Shift+X</code> on macOS) or visit the <a href="https://marketplace.visualstudio.com/items?itemName=Google.google-antigravity" target="_blank" rel="noopener noreferrer">Visual Studio Code Marketplace</a>.</li>
+          <li>Search for <strong>Google Antigravity</strong> (published by <strong>Google</strong>).</li>
+          <li>Click <strong>Install</strong>.</li>
+          <li>Click the Antigravity icon in the Activity Bar to sign in and begin setup. The extension automatically installs the local <code>agy</code> backend service on first launch.</li>
+        </ol>
+        <p class="note"><strong>Tip:</strong> After installation, use the Antigravity side panel to start conversations with agents and explore plans and diffs inline.</p>
+      </section>
+
+      <section class="section" id="auth">
+        <h3>Authentication and sign-in</h3>
+        <p>Antigravity uses a unified sign-in across all surfaces. Learn more about authentication and entitlements:</p>
+        <ul>
+          <li><a href="/docs/enterprise" target="_blank" rel="noopener noreferrer">Gemini Enterprise authentication</a> — Learn how enterprise developers and administrators configure sign-in with Google Cloud credentials and IAM policies.</li>
+          <li><a href="/docs/overview" target="_blank" rel="noopener noreferrer">Antigravity App overview</a> — Learn how sign-in and account entitlements work across the Antigravity App and developer surfaces.</li>
+        </ul>
+      </section>
+
+      <footer>
+        <p class="small">If you want this packaged into a README or need variants (dark theme preview, printable page, or a version with relative vs absolute asset URLs), tell me which format and I'll generate it.<br>POWERED BY DIP</p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
