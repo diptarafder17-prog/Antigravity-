@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiwvy</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #e8fff4, #dff7ff);
+        color: #15302d;
+      }
+      .page {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 48px 20px;
+      }
+      .card {
+        max-width: 760px;
+        width: 100%;
+        background: rgba(255,255,255,0.9);
+        border: 1px solid rgba(21, 48, 45, 0.08);
+        border-radius: 24px;
+        box-shadow: 0 20px 50px rgba(20, 60, 52, 0.12);
+        padding: 40px;
+      }
+      h1 {
+        font-size: clamp(2.4rem, 5vw, 4rem);
+        margin-bottom: 18px;
+      }
+      p {
+        line-height: 1.7;
+        margin-bottom: 24px;
+      }
+      .badge {
+        display: inline-block;
+        background: #d8f9e8;
+        color: #0d5d46;
+        padding: 8px 14px;
+        border-radius: 999px;
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+      .actions {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+      .btn {
+        display: inline-block;
+        background: #0a7c5a;
+        color: white;
+        text-decoration: none;
+        padding: 12px 22px;
+        border-radius: 999px;
+        font-weight: 700;
+      }
+      .btn.alt {
+        background: #ecfdf5;
+        color: #0b513f;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="card">
+        <div class="badge">KIWVY</div>
+        <h1>Fresh ideas. Clear momentum.</h1>
+        <p>
+          Kiwvy is a concept experience designed to spotlight sleek product thinking,
+          fast iteration, and meaningful user value. It brings together strategy,
+          storytelling, and polished execution in one focused concept page.
+        </p>
+        <div class="actions">
+          <a class="btn" href="index.html">Back to home</a>
+          <a class="btn alt" href="cythol.html">Visit Cythol</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
